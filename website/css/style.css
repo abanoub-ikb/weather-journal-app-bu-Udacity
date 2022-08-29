@@ -1,0 +1,104 @@
+/* global styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* nav bar styling start */
+nav{
+    background-color: black;
+    color: gold;
+}
+
+nav h1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+/* logo */
+nav img{
+    max-width: 4rem;
+}
+
+/* form styling */
+form{
+    padding: 3rem 1.5rem ;
+    background-color: white;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+}
+
+input{
+    display: block;
+    padding: 0.8rem;
+    width: 20rem;
+}
+
+textarea{
+    display: block;
+    width: 20rem;
+    padding: 0.8rem;
+}
+
+/* generate data btn */
+button{
+    width: 20rem;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    background-color: black;
+    color: gold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* zipcode icon */
+.home{
+    color: red;
+}
+/* feeling icon */
+.heart{
+    color: green;
+}
+
+/* data area style  */
+section{
+    padding: 1.5rem;
+}
+
+/* styling of generated data  */
+section p{
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+/* arrow down icon */
+.down{
+    color: goldenrod;
+}
+/* temperature icon */
+.temp{
+    color: red;
+}
+/* data icon */
+.time{
+    color: teal;
+}
+
